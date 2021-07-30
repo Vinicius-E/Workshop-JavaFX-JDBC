@@ -4,8 +4,6 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-import com.sun.org.apache.xalan.internal.xsltc.compiler.sym;
-
 import application.Main;
 import gui.util.Alerts;
 import javafx.fxml.FXML;
@@ -36,7 +34,7 @@ public class MainViewController implements Initializable {
 	
 	@FXML
 	public void onMIemDepartmentAction() {
-		System.out.println("onMIemDepartmentAction");
+		loadView("/gui/DepartmentList.fxml");
 	}
 	
 	@FXML
